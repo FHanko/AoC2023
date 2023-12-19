@@ -38,8 +38,6 @@ fun main(args: Array<String>) {
                         number += map[xy add ((-offLeft + offRight) to 0)]
                         offRight++
                     }
-                    println("$offLeft $offRight")
-                    println(number)
                     sum += number.toInt()
                 }
             }
